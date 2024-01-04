@@ -4,6 +4,7 @@ module.exports = {
     "./index.html",
     "./about.html",
     "./projects.html",
+    "./artblog.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
