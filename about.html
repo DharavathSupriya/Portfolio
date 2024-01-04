@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This about page includes brief about me and my educational background, skills i acquired.">
+    <meta name="author" content="Supriya Dharavath">
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="/dist/output.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+</head>
+
+<body>
+    <header class="w-full px-32 py-8 font-medium flex items-center justify-between">
+        <nav>
+            <a href="/" class="underline group inline-block relative mx-4">Home<span class="underline-span"></span></a>
+            <a href="/about.html" class="underline group inline-block relative mx-4">About<span
+                    class="underline-span"></span></a>
+            <a href="/projects.html" class="underline group inline-block relative mx-4">Projects<span
+                    class="underline-span"></span></a>
+            <a href="/artblog.html" class="underline group inline-block relative ml-4">Art Blog<span
+                    class="underline-span"></span></a>
+        </nav>
+        <div class="absolute left-[50%] top-2 translate-x-[-50%] flex items-center justify-center mt-2">
+            <a href="/"
+                class="w-16 h-16 bg-black text-lime-50 flex items-center justify-center rounded-full text-2xl font-bold">SD
+                </SD></a>
+        </div>
+
+        <nav class="flex items-center justify-center flex-wrap">
+            <a href="#" target="_blank" class="social-link mr-3"><iconify-icon
+                    icon="devicon:linkedin"></iconify-icon></a>
+            <a href="#" target="_blank" class="social-link mx-3"><iconify-icon icon="devicon:github"></iconify-icon></a>
+            <a href="#" target="_blank" class="social-link mx-3"><iconify-icon
+                    icon="skill-icons:instagram"></iconify-icon></a>
+            <a href="#" target="_blank" class="social-link mx-3"><iconify-icon
+                    icon="logos:google-gmail"></iconify-icon></a>
+            <a href="#" target="_blank" class="social-link ml-4"><iconify-icon
+                    icon="logos:pinterest"></iconify-icon></a>
+        </nav>
+    </header>
+
+
+    <main class="px-32 flex w-full flex-col ">
+        <div class="pt-10 text-center justify-center">
+            <h1 id="animatedText" class="text-black font-bold capitalize text-6xl text-left mb-16 animated-text">
+                Creativity Ignites Innovation!</h1>
+        </div>
+
+        <div class="grid w-full grid-cols-8 gap-16">
+
+            <div class="col-span-3 flex flex-col items-start justify-center">
+                <h2 class="mb-4 text-lg font-bold uppercase text-black/75">Biography</h2>
+                <p class="font-medium">Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating
+                    beautiful,
+                    functional, and user-centered digital experiences. With 4 years of experience in the field.
+                    I am always looking for new and innovative ways to bring my clients' visions to life.</p>
+
+                <p class="my-4 font-medium">I believe that design is about more than just making things look pretty –
+                    it's about solving problems
+                    and creating intuitive, enjoyable experiences for users.</p>
+
+                <p class="font-medium">Whether I'm working on a website, mobile app, or other digital product, I bring
+                    my commitment to design excellence and user-centered thinking to every project I work on.
+                    I look forward to the opportunity to bring my skills and passion to your next project.</p>
+            </div>
+
+
+            <div class="col-span-3 relative h-max rounded-2xl bg-white border-2 border-sloid border-black bg-light p-8">
+                <div class="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-black rounded-br-3xl"></div>
+                <img src='/images/about-pp.jpg' alt='profile' class='w-full h-auto rounded-2xl'>
+
+            </div>
+
+            <div class="col-span-2 flex flex-col justify-between items-end">
+                <div class="flex flex-col items-end justify-center">
+                    <span id="animatedNumber1" class="inline-block text-7xl font-bold">
+                        10+
+                    </span>
+                    <h2 class="text-xl font-medium capitalize text-black/75">satisfied clients</h2>
+                </div>
+
+                <div class="flex flex-col items-end justify-center">
+                    <span id="animatedNumber2" class="inline-block text-7xl font-bold">
+                        10+
+                    </span>
+                    <h2 class="text-xl font-medium capitalize text-black/75">projects completed</h2>
+                </div>
+
+                <div class="flex flex-col items-end justify-center">
+                    <span id="animatedNumber3" class="inline-block text-7xl font-bold">
+                        5+
+                    </span>
+                    <h2 class="text-xl font-medium capitalize text-black/75">satisfied clients</h2>
+                </div>
+            </div>
+
+            <br />
+        </div>
+        <hr class="border-t-2 border-solid border-black/20 my-4" />
+        <!--
+// v0 by Vercel.
+// https://v0.dev/t/RDMUTYPRGPP
+-->
+
+        <div class="py-4">
+            <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl text-center items-center font-bold uppercase mb-8">Skills</h1>
+
+                <div class="flex justify-center space-x-4 mb-8">
+                    <button onclick="showSkills('data-analytics', this)"
+                        class="btn inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 bg-gray-200 text-gray-800">Data
+                        Analytics</button>
+                    <button onclick="showSkills('programming-languages', this)"
+                        class="btn inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-destructive/90 h-10 px-4 py-2 bg-gray-200 text-gray-800">Programming
+                        Languages</button>
+                    <button onclick="showSkills('web-development', this)"
+                        class="btn inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 bg-gray-200 text-gray-800">Web
+                        Development</button>
+                    <button onclick="showSkills('technology', this)"
+                        class="btn inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 bg-gray-200 text-gray-800">Technology</button>
+                </div>
+
+
+
+                <div id="data-analytics" class="hidden">
+
+                    <div class="grid gap-4 grid-cols-3 md:grid-cols-6 justify-center items-center">
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/fluency/48/r-project.png"
+                                alt="r-project" />
+                            <span class="text-sm">
+                                R Programming
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="/images/DataAnalytics/icon-ml.png"
+                                alt="Machine learning" />
+                            <span class="text-sm">
+                                Machine Learning
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/tableau-software.png"
+                                alt="tableau-software" />
+                            <span class="text-sm">
+                                Tableau Software
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="/images/DataAnalytics/sql.png" alt="sql" />
+                            <span class="text-sm">
+                                SQL
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/fluency/48/jupyter.png"
+                                alt="jupyter" />
+                            <span class="text-sm">
+                                Jupyter Notebook
+                            </span>
+                        </div>
+
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/pandas.png" alt="pandas" />
+                            <span class="text-sm">
+                                pandas
+                            </span>
+                        </div>
+
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/numpy.png" alt="numpy" />
+                            <span class="text-sm">
+                                Numpy
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img class="w-14 h-14 object-cover" src="/images/DataAnalytics/scipy.png" alt="SciPy" />
+                            <span class="text-sm">
+                                SciPy
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img class="w-14 h-14 object-cover"
+                                src="https://img.icons8.com/color/58/microsoft-excel-2019--v1.png"
+                                alt="microsoft-excel" />
+                            <span class="text-sm">
+                                Microsoft Excel
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="programming-languages" class="hidden">
+                    <div class="grid gap-4 grid-cols-3 md:grid-cols-6 justify-center items-center">
+                        <!-- Add similar code for programming language icons-->
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/3d-fluency/58/python.png"
+                                alt="python" />
+                            <span class="text-sm">
+                                Python
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58"
+                                src="https://img.icons8.com/3d-fluency/188/java-coffee-cup-logo.png" alt="java" />
+                            <span class="text-sm">
+                                Java
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="web-development" class="hidden">
+                    <div class="grid gap-4 grid-cols-3 md:grid-cols-6 justify-center items-center">
+                        <!-- Add similar code for web development icons -->
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/58/html-5--v1.png"
+                                alt="html-5--v1" />
+                            <span class="text-sm">
+                                HTML5
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/css3.png" alt="css3" />
+                            <span class="text-sm">
+                                CSS3
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/fluency/58/javascript.png"
+                                alt="javascript" />
+                            <span class="text-sm">
+                                JavaScript
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/tailwind_css.png"
+                                alt="tailwind_css" />
+                            <span class="text-sm">
+                                Tailwind CSS
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/bootstrap--v1.png"
+                                alt="bootstrap--v1" />
+                            <span class="text-sm">
+                                Bootstrap
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="technology" class="hidden">
+                    <div class="grid gap-4 grid-cols-3 md:grid-cols-6 justify-center items-center">
+                        <!-- Add similar code for technology icons -->
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/git.png" alt="git" />
+                            <span class="text-sm">
+                                Git
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/ios-glyphs/57/github.png"
+                                alt="github" />
+                            <span class="text-sm">
+                                GitHub
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center p-4 border rounded">
+                            <img width="58" height="58" src="https://img.icons8.com/color/48/ubuntu--v1.png"
+                                alt="ubuntu--v1" />
+                            <span class="text-sm">
+                                Ubuntu
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <hr class="border-t-2 border-solid border-black/20 my-4" />
+
+
+        <!--Experience section-->
+        <div class="my-20" class="animatedSection">
+            <h2 class="font-bold text-8xl mb-32 w-full text-center">Experience</h2>
+            <div class="w-[85%] mx-auto relative" id="experienceContainer">
+                <!-- Vertical line -->
+                <div id="line" class="absolute left-9 top-0 w-[4px] h-full bg-black origin-top"></div>
+
+                <!-- Circle -->
+                <div class="absolute left-0 stroke-dark">
+                    <svg class="-rotate-90" height="75" width="75" viewBox="0 0 100 100">
+                        <circle cx="75" cy="50" r="20" stroke="" stroke-width="1" fill="none" />
+                        <circle cx="75" cy="50" r="20" stroke="black" stroke-width="5" fill="white" />
+                        <circle cx="75" cy="50" r="10" stroke-width="1" fill="purple" class="animate-pulse" />
+                    </svg>
+                </div>
+
+                <!-- Experience Section -->
+                <ul class="list-none p-0 w-full flex flex-col items-start justify-between ml-4">
+                    <li class="mb-4 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
+                        <div>
+                            <h3 class="position capitalize font-bold text-2xl">Cyber Security & Ethical Hacking Workshop
+                                <span class="company">
+                                    <a target="_blank" href="https://suprajatechnologies.com/"
+                                        class="text-pink-600 capitalize">@Supraja Technologies</a>
+                                </span>
+                            </h3>
+                            <span class="timeAddress capitalize font-medium text-black/75">03/2023 | Hyderabad,
+                                Telangana</span>
+                            <p class="work font-medium w-full text-justify">Participated in a dynamic 12-hour Cyber
+                                Security Hackathon and secured the second position. Engaged in a comprehensive 3-day
+                                bootcamp leading up to the hackathon, where I delved into diverse challenges, including
+                                Steganography Capture the Flag (CTF’s) and Cryptography.
+                                Successfully tackled tasks such as Window Event log analysis, Wireshark packet analysis,
+                                and Networking.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="border-t-2 border-solid border-black/20 my-4" />
+
+    
+<!-- Education section -->
+<div class="my-20" class="animatedSection" >
+    <h2 class="font-bold text-8xl mb-32 w-full text-center">Education</h2>
+    <div class="w-[85%] mx-auto relative" id="educationContainer">
+        <!-- Vertical line -->
+        <div id="eduline" class="absolute left-9 top-0 w-[4px] h-full bg-black origin-top"></div>
+
+        <!-- Education Section -->
+        <ul class="list-none p-0 w-full flex flex-col items-start justify-between ml-4">
+            <li class="mb-4 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between" id="educationSection1">
+                <div>
+                    <h3 class="type font-bold text-2xl">Bachelor of Technology in Computer Science and
+                        Engineering (AI & ML)</h3>
+                    <h3 class="capitalize text-pink-800 font-bold">G. Narayanamma Institute of Technology & Science</h3>
+                    <span class="timePlace capitalize font-medium text-black/75">10/2021-05/2024 | Hyderabad,
+                        Telangana</span>
+                    <p class="info font-medium w-full text-justify">Relevant courses included Data Structures,
+                        OOP through Java, DBMS, Computer Networks, Data Analytics, Machine Learning</p>
+                </div>
+            </li>
+            <li class="my-4 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between" id="educationSection2">
+                <div>
+                    <h3 class="type font-bold text-2xl capitalize">Diploma in plastic mould technology</h3>
+                    <h3 class="capitalize text-pink-800 font-bold">Central institute of petrochemicals engineering &
+                        technology</h3>
+                    <span class="timePlace capitalize font-medium text-black/75">08/2018-07/2021 | Hyderabad,
+                        Telangana</span>
+                    <p class="info font-medium w-full text-justify">Completed a course in Plastic Mould Technology, Mould Manufacturing Technology and gained handson experience in Auto Code.</p>
+                </div>
+            </li>
+            <li class="my-4 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col justify-between" id="educationSection3">
+                <div>
+                    <h3 class="type font-bold text-2xl capitalize ">Board of Secondary Education (SSC)</h3>
+                    <h3 class="capitalize text-pink-800  font-bold">ZPHS Madhapuram</h3>
+                    <span class="timePlace capitalize font-medium text-black/75">06/2017-04/2018 | Jangaon,
+                        Telangana</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+    </main>
+
+    <footer class="mt-40" style="background-color: #ebeaea; padding: 1rem; text-align: center;">
+        2023 &copy; Copyright <b>MyPortfolio</b>. All Rights Reserved
+        <p>Designed with &#10084;&#65039; by Supriya Dharavath</p>
+    </footer>
+
+
+    <script>
+          document.addEventListener("DOMContentLoaded", function () {
+        // Accessing elements by class
+        const timePlaceElements = document.querySelectorAll('.timePlace');
+
+        // Loop through each element and do something
+        timePlaceElements.forEach(element => {
+            console.log(element.textContent);
+            // Perform other actions as needed
+        });
+    });
+
+    </script>
+    <script src="/src/script.js"></script>
+</body>
+
+</html>
