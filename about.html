@@ -54,7 +54,7 @@
 
     <main class="px-32 flex w-full flex-col ">
         <div class="pt-10 text-center justify-center">
-            <h1 id="animatedText" class="text-black font-bold capitalize text-6xl text-left mb-16 animated-text">
+            <h1 id="animatedText" class="text-black font-bold capitalize text-8xl text-center mb-16 animated-text">
                 Creativity Ignites Innovation!</h1>
         </div>
 
@@ -79,7 +79,10 @@
 
             <div class="col-span-3 relative h-max rounded-2xl bg-white border-2 border-sloid border-black bg-light p-8">
                 <div class="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-black rounded-br-3xl"></div>
-                <img src='/images/about-pp.jpg' alt='profile' class='w-full h-auto rounded-2xl'>
+                <img src='/images/about-pp.jpg' alt='profile' loading="lazy" 
+                class='w-full h-auto rounded-2xl'
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                srcset="/images/about-pp.jpg 768w, /images/about-pp-2x.jpg 1200w" />
 
             </div>
 
